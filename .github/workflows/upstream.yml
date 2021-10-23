@@ -101,7 +101,7 @@ jobs:
         ddns-scripts_{aliyun,dnspod} UnblockNeteaseMusicGo ipv6-helper adbyby ChinaDNS luci-theme-netgear
         
         
-        sed -i 's/+dockerd/+dockerd \\\n\t+cgroupfs-mount/' luci-app-dockerman/Makefile
+        
         rm -f subconverter/patches/010-missing-header.patch
         sed -i 's?../../luci.mk?$(TOPDIR)/feeds/luci/luci.mk?g' */Makefile
         sed -i 's?../../lang?$(TOPDIR)/feeds/packages/lang?g' */Makefile
