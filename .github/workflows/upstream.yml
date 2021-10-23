@@ -39,7 +39,7 @@ jobs:
       run: |
         rm -rf `find -maxdepth 1 -type d -name "[!.]*"`
         git rm -r --cache *
-        (git clone --depth 1 https://github.com/Twinzo1/openwrt ./openwrt && rm ./openwrt/*.md && mv ./openwrt/* ./ && rm -rf ./openwrt)&
+       
         # 下载diy脚本
     
         
