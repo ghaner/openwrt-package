@@ -78,9 +78,9 @@ jobs:
  
  
         svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom &
-
+        svn export https://github.com/messense/aliyundrive-webdav/trunk/openwrt aliyundrive && mvdir aliyundrive
         svn export https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser
-
+  
         
 
         
