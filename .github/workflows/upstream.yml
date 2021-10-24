@@ -5,7 +5,7 @@
 # 
 # <https://github.com/KFERMercer/OpenWrt-CI>
 # <https://github.com/kiddin9/openwrt-packages/blob/master/.github/workflows/upstream.yml>
-
+#https://github.com/Twinzo1/openwrt-packages/blob/main/.github/workflows/upstream.yml
 
 name: Merge-upstream
 on:
