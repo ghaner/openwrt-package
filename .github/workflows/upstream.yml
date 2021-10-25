@@ -77,9 +77,9 @@ jobs:
         svn co https://github.com/Twinzo1/AdGuardHome/trunk/luci-app-adguardhome &
  
  
-        svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom &
+        svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom https://github.com/ghaner/openwrt-for-acrh17/trunk/packages
         
-        svn export https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser https://github.com/ghaner/openwrt-for-acrh17/trunk/packages
+        svn export https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser 
       
         
 
