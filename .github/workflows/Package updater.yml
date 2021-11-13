@@ -7,18 +7,18 @@
 # <https://github.com/kiddin9/openwrt-packages/blob/master/.github/workflows/upstream.yml>
 #https://github.com/Twinzo1/openwrt-packages/blob/main/.github/workflows/upstream.yml
 
-name: Merge-upstream
+name: package update
 on:
   push:
     paths:
-      - '.github/workflows/upstream.yml'
+      - '.github/workflows/Package updater.yml'
   schedule:
     - cron: 0 */12 * * *
   workflow_dispatch:
   repository_dispatch:
 
 jobs:
-  merge:
+  updatepackage:
     if: github.event.repository.owner.id == github.event.sender.id
     runs-on: Ubuntu-20.04
 
