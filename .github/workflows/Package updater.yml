@@ -41,45 +41,47 @@ jobs:
         git rm -r --cache *
        
         # 下载diy脚本
-    
-        
-        
-       
-
-        git clone --depth 1 https://github.com/garypang13/luci-theme-edge &
-      
-
-
-        
-      
-      
-        
+        svn co https://github.com/Twinzo1/AdGuardHome/trunk/luci-app-adguardhome &
+        svn export https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser 
         git clone --depth 1 https://github.com/project-lede/luci-app-godproxy &
-
-
-  
-
-
-
-        git clone --depth 1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon &
-        git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config &
-        
         git clone --depth 1 https://github.com/jerrykuku/luci-app-jd-dailybonus &
+        git clone --depth 1 https://github.com/vernesong/OpenClash && mv -f OpenClash/luci-app-openclash ./ ; rm -Rf OpenClash &
+        git clone --depth 1 https://github.com/esirplayground/luci-app-poweroff &
+        
+        
+      
+
+
+        
+      
+      
+        
+        
+
+
+  
+
+
+        git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config &
+        git clone --depth 1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon &
+        git clone --depth 1 https://github.com/garypang13/luci-theme-edge &
+        svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom
+        
         
   
-        git clone --depth 1 https://github.com/vernesong/OpenClash && mv -f OpenClash/luci-app-openclash ./ ; rm -Rf OpenClash &
+         
 
     
-        git clone --depth 1 https://github.com/esirplayground/luci-app-poweroff &
+        
    
 
 
-        svn co https://github.com/Twinzo1/AdGuardHome/trunk/luci-app-adguardhome &
- 
- 
-        svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom 
         
-        svn export https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser 
+ 
+ 
+         
+        
+        
       
         
 
