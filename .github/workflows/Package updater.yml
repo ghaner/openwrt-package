@@ -2,10 +2,14 @@
 # This is free software, lisence use MIT.
 # 
 # Copyright (C) 2020 KFERMercer <KFER.Mercer@gmail.com>
-# 
+# Thanks:
 # <https://github.com/KFERMercer/OpenWrt-CI>
 # <https://github.com/kiddin9/openwrt-packages/blob/master/.github/workflows/upstream.yml>
-#https://github.com/Twinzo1/openwrt-packages/blob/main/.github/workflows/upstream.yml
+# https://github.com/Twinzo1/openwrt-packages/blob/main/.github/workflows/upstream.yml
+# third-party feed:
+# https://github.com/281677160/openwrt-package
+# third-party software:
+
 
 name: package update
 on:
