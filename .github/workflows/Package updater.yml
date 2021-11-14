@@ -49,6 +49,8 @@ jobs:
         git rm -r --cache *
        
         # 下载diy脚本
+        svn co https://github.com/281677160/openwrt-package/trunk/feeds/packages/utils/filebrowser
+
         svn co https://github.com/Twinzo1/AdGuardHome/trunk/luci-app-adguardhome &
         git clone --depth 1 https://github.com/sirpdboy/luci-app-autotimeset
         svn co https://github.com/281677160/openwrt-package/trunk/feeds/luci/applications/luci-app-filebrowser
