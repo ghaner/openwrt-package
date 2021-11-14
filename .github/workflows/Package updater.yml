@@ -50,7 +50,7 @@ jobs:
        
         # 下载diy脚本
         svn co https://github.com/Twinzo1/AdGuardHome/trunk/luci-app-adguardhome &
-        svn export https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser 
+        svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser 
         git clone --depth 1 https://github.com/project-lede/luci-app-godproxy &
         svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash &
         git clone --depth 1 https://github.com/esirplayground/luci-app-poweroff &
