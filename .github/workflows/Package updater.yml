@@ -12,7 +12,9 @@
 #--------------------------------------------------------------------------------------------------
 # https://github.com/281677160/openwrt-package
 #===================================================================================================
-# third-party software:
+# Add a third-party software:git clone -b branch-name software-url
+# Add a third-party software:git clone --depth=1 software-url
+# Add a third-party software:svn co software-url(/trunk or branch/branch-name/software-name) tree/master 替换成 trunk;tree/branch 替换成 branch/branch-name分支名称
 #----------------------------------------------------------------------------------------------------
 
 name: package update
