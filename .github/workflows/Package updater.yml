@@ -45,12 +45,12 @@ jobs:
       run : |
         git config --global user.email "51288907+github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
-
+#=========================================================================================================== 
     - name: Syn upstream
       run: |
         rm -rf `find -maxdepth 1 -type d -name "[!.]*"`
         git rm -r --cache *
-       
+      
         # 下载diy脚本
         svn co https://github.com/281677160/openwrt-package/trunk/feeds/packages/utils/filebrowser
 
@@ -85,7 +85,7 @@ jobs:
 
         
       
-      
+#===========================================================================================================       
     - name: Apply patches
       run: |
         #sed -i "s/\r//g" open-app-filter/src/appfilter_ubus.c
