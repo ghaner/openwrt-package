@@ -16,6 +16,7 @@
 # Add a third-party software:git clone -b branch-name software-url
 # Add a third-party software:git clone --depth=1 software-url
 # Add a third-party software:svn co software-url(/trunk or branch/branch-name/software-name) 源码路径中的tree/master 替换成 trunk;源码路径中的tree/branch 替换成 branch/branch-name
+# 拉取命令参考https://github.com/danshui-git/shuoming/blob/master/ming.md
 #----------------------------------------------------------------------------------------------------
 
 name: package update
