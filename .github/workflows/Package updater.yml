@@ -12,7 +12,7 @@
 #--------------------------------------------------------------------------------------------------
 # https://github.com/281677160/openwrt-package
 #===================================================================================================
-#只拉取openwrt源码软件包中没有或更优的源码
+# 此仓库拉取编译所需要的openwrt源码软件包中没有或更优的源码,且为唯一的第三方feed.或者拉取编译不需要但是十分优秀的插件.
 # Add a third-party software:git clone -b branch-name software-url
 # Add a third-party software:git clone --depth=1 software-url
 # Add a third-party software:svn co software-url(/trunk or branch/branch-name/software-name) 源码路径中的tree/master 替换成 trunk;源码路径中的tree/branch 替换成 branch/branch-name
