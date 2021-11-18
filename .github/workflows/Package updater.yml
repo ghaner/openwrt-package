@@ -58,7 +58,7 @@ jobs:
         svn co https://github.com/Twinzo1/AdGuardHome/trunk/luci-app-adguardhome &
       
         svn co https://github.com/281677160/openwrt-package/trunk/feeds/luci/applications/luci-app-filebrowser
-        git clone --depth 1 https://github.com/deplives/luci-app-flowoffload
+        git clone --depth 1 https://github.com/deplives/luci-app-flowoffload &
         git clone --depth 1 https://github.com/project-lede/luci-app-godproxy &
         git clone --depth 1 https://github.com/jerrykuku/luci-app-jd-dailybonus
         
