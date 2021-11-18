@@ -64,7 +64,7 @@ jobs:
         
         svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash &
         
-        
+        git clone --depth 1 https://github.com/zzsj0928/luci-app-pushbot
   
         svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom
         
