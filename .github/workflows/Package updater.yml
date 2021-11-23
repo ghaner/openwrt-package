@@ -24,8 +24,8 @@ on:
   push:
     paths:
       - '.github/workflows/Package updater.yml'
- # schedule:
- #   - cron: 0 */12 * * *
+  schedule:
+    - cron: 0 */12 * * *
   workflow_dispatch:
   repository_dispatch:
 
