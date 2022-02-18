@@ -62,7 +62,7 @@ jobs:
         git clone --depth 1 https://github.com/Porcat/luci-app-filetransfer
         git clone --depth 1 https://github.com/jerrykuku/luci-app-jd-dailybonus
         
-        svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash &
+        #svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash &
         
         git clone --depth 1 https://github.com/zzsj0928/luci-app-pushbot
   
