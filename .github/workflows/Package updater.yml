@@ -62,7 +62,7 @@ jobs:
         git clone --depth 1 https://github.com/Porcat/luci-app-filetransfer
         git clone --depth 1 https://github.com/jerrykuku/luci-app-jd-dailybonus
         
-        svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash &
+        #svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash &
         
         git clone --depth 1 https://github.com/zzsj0928/luci-app-pushbot
   
@@ -111,7 +111,7 @@ jobs:
         bash diy/create_acl_for_luci.sh -a || true
         bash diy/convert_translation.sh -a || true
         sed -i 's/ca-certificates/ca-bundle/g' */Makefile
-        sed -i 's/+libcap /+libcap +libcap-bin /' luci-app-openclash/Makefile
+        #sed -i 's/+libcap /+libcap +libcap-bin /' luci-app-openclash/Makefile
         sed -i 's/@GHCODELOAD/https:\/\/codeload.github.com/' */Makefile
         find */luasrc/view/ -maxdepth 2 -name "*.htm" | xargs -i sed -i 's?"http://" + window.location.hostname?window.location.protocol + "//" + window.location.hostname?g' {}
         find ./*/ -maxdepth 1 -name "Makefile" ! -path "*tinyfecvpn*" ! -path "*gowebdav*" | xargs -i sed -i "s/PKG_HASH:=.*/PKG_HASH:=skip/g" {}
